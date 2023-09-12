@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <section>
+        <h1 id="yo">Cordoba Karen</h1>
+        <p>Vivo en Salta Capital con mi familia y soy estudiante en el Instituto del Milagro, de la carrera Analista de Sistemas.
+        </p>
+    </section>
+
+    <section class="seccion1">
+        <nav id="navbar">
+            <ul>
+                <li><a href="#info-personal">Sobre mí</a></li>
+                <li><a href="#intereses">Intereses y pasatiempos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section id="info-personal">
+        <h1>Sobre mí</h1>
+        <p>
+            Luego de mis estudios secundarios estuve en distintas carreras (e incluso en las fuerzas armadas), hasta hace un año y 
+            medio que decidí sumergirme en el mundo de la informática. <br>
+            Hice un curso de programación de Python a través del cual creció mi interés por la programación. En un futuro espero poder 
+            enfocarme en el mundo de la ciberseguridad.
+        </p>
+        <img  id="gif" src="https://merida.anahuac.mx/hs-fs/hubfs/apreu/Blog/2019%20Blog%20APREU/APREU%20Blog%20-%20Abril%2019/dribbble-shot_6.gif?width=1600&name=dribbble-shot_6.gif" width="300px">
+    </section>
+
+    <section id="intereses">
+        <h1>Intereses y Pasatiempos</h1>
+        <p>
+            Tengo interés en el desarrollo móvil actualmente, pero me gustaría explorar otros campos orientados a la seguridad.<br>
+            Me gusta escuchar música de distintos géneros, bailar y andar en bicicleta. También disfruto de ir a bares con mis amigos 
+            y bailar.<br>
+        </p>
+        <img  id="musica" src="https://th.bing.com/th/id/OIP.bg4NDwpiTkGyqs8KQSnd8gHaIF?pid=ImgDet&rs=1" width="200px">
+    </section>
+
+    <section id="contacto">
+        <h1>Contacto</h1>
+        <form action="/submit">
+            <fieldset id="formulario">
+                <legend>Datos de contacto</legend>
+                Nombre:
+                <input type="text" name="nombre" size="30" maxlength="50" required><br>
+                Correo electrónico:
+                <input type="email" name="mail" size="30" maxlength="50" required><br>
+                Mensaje:<br>
+                <textarea name="mensaje" cols="100" rows="10" required>
+                </textarea>
+                <br>
+                <input id="boton" type="submit" onclick="alert('Datos cargados correctamente')" value="Enviar"><br>
+            </fieldset>
+            </form>
+    </section>
+    <footer id="redes">Redes Sociales:
+        <a href="https://www.facebook.com/kaareem.coordoobaa">Facebook</a>
+    </footer>
+</body>
+</html>
